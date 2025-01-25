@@ -2,8 +2,7 @@
 <details>
   <summary><strong>POST /customer</strong></summary>
   
-  고객 정보 등록  
-  /customer  
+  > 고객 정보 등록
   - **Header**: None
   - **Request**:
     - *name(string)*: 이름
