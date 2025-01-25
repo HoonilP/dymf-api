@@ -1,12 +1,9 @@
 # Customer
 <details>
 <summary><span style="color:blue">POST</span> /customer</summary>
-	고객 정보 등록
-	<details>
-	<summary>Header</summary>
-	</details>
-	<details>
-	<summary>Request</summary>
+	- 고객 정보 등록
+    + Header: -
+	+ Request
 		*name(string): 이름
 		*nrc_no(string): 주민번호
 		*date_of_birth(string): 생년월일
@@ -21,10 +18,7 @@
 		office_postal_code(string): 사무실 우편번호
 		details([string]): 추가 정보
 		image(???): 사진
-	</details>
-	<details>
-	<summary>Response</summary>
-	</details>
+	+ Response: -
 </details>
 <details>
 <summary><span style="color:red">DELETE</span> /customer</summary>
