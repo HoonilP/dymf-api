@@ -1,4 +1,22 @@
-# Customer
+# API 명세
+## 공통 응답/요청 방식, JSON 정의
+1. API 요청 형식은  *‘application/json’*으로 제한합니다. 이때 application 대신에 app으로 줄여서 씁니다.
+2. 성공/실패 여부는 HTTP 상태코드를 통해 제공합니다. 상태 코드는 다음과 같습니다.
+200번대 : 성공
+300번대 : 리다이렉트
+400번대 : 클라이언트 오류(request error)
+500번대 : 서버 오류
+
+- JSON 형식
+```json
+{
+	"code" : 
+	"message":
+	"result" : 
+}
+```
+
+## Customer
 <details>
   <summary><strong>POST /customer</strong></summary>
   
