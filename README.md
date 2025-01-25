@@ -1,9 +1,6 @@
 # Customer
 
 <details>
-    <summary><strong>Customer</strong></summary>
-
-<details>
   <summary><strong>POST /customer</strong></summary>
   
   > 고객 정보 등록  
@@ -57,6 +54,4 @@
     - details([string]): 추가 정보
     - image(???): 사진  
   - **Response**: None
-</details>
-
 </details>
