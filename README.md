@@ -1,6 +1,6 @@
 # Customer
 <details>
-<summary><p>$\bf{\large{\color{#6580DD}POST}}$</p> /customer</summary>
+<summary><span><p>$\bf{\large{\color{#6580DD}POST}}$</p> /customer</span></summary>
     - 고객 정보 등록
     - /customer
     - Header: -
